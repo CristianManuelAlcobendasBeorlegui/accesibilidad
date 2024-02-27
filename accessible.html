@@ -10,28 +10,28 @@
 
 	<body>
 		<header>
-			<nav>
-				<a href="#">Brand</a>
-				<a href="#">Features</a>
-				<a href="#">Pricing</a>
-				<a href="#">About</a>
-				<a href="#">Contact us</a>	
+			<nav aria-label="Web sections">
+				<a href="./accessible.html" aria-current="page">Brand</a>
+				<a href="./features.html">Features</a>
+				<a href="./princing.html">Pricing</a>
+				<a href="./about.html">About</a>
+				<a href="./contactUs.html">Contact us</a>
 			</nav>
 			<div class="search-box">
-				<form>
+				<form role="search">
 					<input type="text" placeholder="Search" class="search-input">
 					<button type="submit" class="search-button">Search</button>
-				</form>	
+				</form>
 			</div>
 		</header>
 		<main>
 			<section id="example-articles">
 				<article>
 					<div class="article-main">
-						<div class="article-header">
+						<div class="article-header" role="banner">
 							<h1>Article title</h1>
 						</div>
-						<div class="article-content">
+						<div class="article-content" role="main">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 								dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -43,10 +43,10 @@
 					</div>
 					<div class="subarticles">
 						<article class="article-left-distribution">
-							<div class="article-header">
+							<div class="article-header" role="banner">
 								<h2>Article subtitle #1</h2>
 							</div>
-							<div class="article-content">
+							<div class="article-content" role="main">
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -67,10 +67,10 @@
 							</div>
 						</article>
 						<article class="article-right-distribution">
-							<div class="article-header">
+							<div class="article-header" role="banner">
 								<h2>Article subtitle #2</h2>
 							</div>
-							<div class="article-content">
+							<div class="article-content" role="main">
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 									dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
